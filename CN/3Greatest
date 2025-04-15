@@ -1,0 +1,16 @@
+#!/bin/bash
+echo "Enter the 1 number"
+read n
+echo "Enter the 2 number"
+read m
+echo "Enter the 3 number"
+read o
+if [ $n -gt $m ] && [ $n -gt $o ]
+then
+echo "1 number is greater"
+elif [ $m -gt $o ]
+then
+echo "2 number is greater"
+else
+echo "3 number is greater"
+fi
