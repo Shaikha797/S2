@@ -1,0 +1,13 @@
+#!/bin/bash
+echo "Enter the number"
+read a
+if [ $a -gt 0 ]
+then
+echo "Positive number"
+elif [ $a == 0 ]
+then
+        echo "either poswitive nor negative"
+
+else
+echo "Negative number"
+fi
