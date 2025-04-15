@@ -1,0 +1,16 @@
+#!/bin/bash
+echo "Enter the side 1"
+read a
+echo "Enter the side 2"
+read b
+echo "Enter the side 3"
+read c
+if [ $a == $b ] && [ $b == $c ]
+then
+echo "Equalateral"
+elif [ $a == $b ] || [ $b == $c ] || [ $a == $c ]
+then
+echo "Isoceles"
+else
+echo "Scalene"
+fi
